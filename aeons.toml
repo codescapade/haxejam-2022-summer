@@ -1,0 +1,19 @@
+[aeons]
+projectName = "haxejam-2022-summer"
+
+libraries = [
+  "ldtk-haxe-api",
+  "deepnightLibs"
+]
+
+defines = [
+  "use_ldtk"
+]
+
+[[atlas]]
+name = "atlas"
+saveFolder = "assets"
+folders = ["atlasImages"]
+trimmed = true
+extrude = 1
+packMethod = "optimal"
